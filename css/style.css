@@ -99,7 +99,7 @@ body {
 
 
 /* Laptop view */
-@media only screen and (max-height: 800px) {
+@media only screen and (max-width: 1600px) {
 
 .hiddendiv {
 
