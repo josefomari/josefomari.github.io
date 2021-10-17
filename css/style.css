@@ -103,17 +103,17 @@ body {
 /* Laptop view */
 @media only screen and (max-height: 980px) {
 
-  .hiddendiv {
+.hiddendiv {
 
-    width: 200px;
+    min-width: 200px;
     height: 100vh;
     float:left;
-  }
+}
 
 #pSkills {
   padding-left: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;  
+  font-size: 5px;  
   color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -125,7 +125,7 @@ body {
   color: #fff;
   font-family: sans-serif, 'Roboto';
   text-align: center;
-  font-size: 25px;
+  font-size: 10px;
 }
 
 .sidebar {
