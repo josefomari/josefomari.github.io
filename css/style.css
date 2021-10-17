@@ -103,6 +103,13 @@ body {
 /* Laptop view */
 @media only screen and (max-height: 980px) {
 
+  .hiddendiv {
+
+    width: 200px;
+    height: 100vh;
+    float:left;
+  }
+
 #pSkills {
   padding-left: 10px;
   font-family: 'Roboto', sans-serif;
