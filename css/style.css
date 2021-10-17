@@ -113,7 +113,7 @@ body {
 #pSkills {
   padding-left: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 5px;  
+  font-size: 2px;  
   color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -125,7 +125,7 @@ body {
   color: #fff;
   font-family: sans-serif, 'Roboto';
   text-align: center;
-  font-size: 10px;
+  font-size: 5px;
 }
 
 .sidebar {
@@ -148,15 +148,36 @@ body {
 
 .sidebar img {
   height: 210px;
-  
- 
   width: 200px;
   max-width: 288px;
   min-width: 200px;
+}
+
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
   
+  display: flex;
+  left: 10px;
+  height: 5px;
+  width: 90%;
   
-  
-  
+}
+
+.progress-value {
+  animation: load 2s normal forwards;
+  box-shadow: 0 10px 10px -4.5px #fff;
+  border-radius: 100px;
+  background: #75b800;;
+  height: 5px;
+  width: 0px;
+}
+
+@keyframes load {
+  0% { width: 0; }
 }
 
 
