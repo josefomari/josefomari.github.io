@@ -18,7 +18,7 @@ body {
 #pSkills {
   padding-left: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;  
+  font-size: 12px;  
   color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -30,7 +30,7 @@ body {
   color: #fff;
   font-family: sans-serif, 'Roboto';
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .sidebar {
@@ -52,10 +52,8 @@ body {
 }
 
 .sidebar img {
-  height: 272px;
-  
-  height: 272px;
   width: 288px;
+  height: 345px;
   max-width: 288px;
   min-width: 288px;
   
