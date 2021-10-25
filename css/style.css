@@ -45,10 +45,6 @@ body {
   max-height: 100%;
   min-height: 700px;
   background: #252525;
-  
-  
-  
-  
 }
 
 .sidebar img {
@@ -56,26 +52,20 @@ body {
   height: 345px;
   max-width: 288px;
   min-width: 288px;
-  
-  
-  
-  
 }
-
+/*skill bar */
 .progress {
   background: rgba(255,255,255,0.1);
   justify-content: flex-start;
   border-radius: 100px;
   align-items: center;
   position: relative;
-  
   display: flex;
   left: 10px;
   height: 10px;
   width: 90%;
-  
 }
-
+/*skill bar size, % and color */
 .progress-value {
   animation: load 2s normal forwards;
   box-shadow: 0 10px 10px -4.5px #fff;
@@ -91,7 +81,6 @@ body {
 
 
 .hiddendiv {
-
   width: 288px;
   height: 100vh;
   float:left;
@@ -102,7 +91,6 @@ body {
 @media only screen and (max-width: 1600px) {
 
 .hiddendiv {
-
     min-width: 200px;
     height: 100vh;
     float:left;
@@ -115,7 +103,6 @@ body {
   color: #fff;
   margin-top: 5px;
   margin-bottom: 5px;
-  
 }
 
 #h2Skills{
@@ -138,23 +125,13 @@ body {
   max-height: 100%;
   min-height: 700px;
   background: #252525;
-  
-  
-  
-  
 }
 
 .sidebar img {
   height: 320px;
-  
- 
   width: 288px;
   max-width: 288px;
   min-width: 288px;
-  
-  
-  
-  
 }
 
 .progress {
@@ -163,12 +140,10 @@ body {
   border-radius: 100px;
   align-items: center;
   position: relative;
-  
   display: flex;
   left: 10px;
   height: 5px;
   width: 90%;
-  
 }
 
 .progress-value {
@@ -180,15 +155,12 @@ body {
   width: 0px;
 }
 
-
+/* End of media query for laptop */
 }
-
-
 
 /* Area for iconLinks*/
 .iconLinks {
   text-align: center;
-  
   width: 100%;
   height: auto;
   margin-top: 30px;
@@ -196,14 +168,12 @@ body {
 }
 
 #fullName{
-    
     font-size: 70px;
     margin-bottom: 15px;
 }
 
 /* IconsLinks */
 .fab {
-  
   font-size: 40px;
 }
 
@@ -220,7 +190,6 @@ body {
 .fa-user {
   font-size: 30px;
   margin-bottom: 10px;
-    
 }
 
 #aboutmeheadline {
@@ -244,7 +213,6 @@ body {
   text-align: left;
   font-size: 20;
   width: 500px;
-  
 }
 
 
@@ -255,8 +223,6 @@ body {
   grid-template-columns: 700px;
   grid-gap: 10px;
   color: #252525;
-  
-  
 }
 
 .box-aboutme {
@@ -267,7 +233,7 @@ body {
   font-size: 130%;
 }
 
-.wine-row {
+.profile-row {
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -275,7 +241,7 @@ body {
   margin-bottom: 5px;
 }
 
-.wine-text-container {
+.profile-text-container {
   width: 700px;
   height: auto;
   max-width: 700px;
@@ -323,13 +289,11 @@ body {
   margin: 20px;
   text-align: center;
   font-size: 25px;
-  
 }
 
 .fa-briefcase {
   font-size: 30px;
   margin-bottom: 10px;
-    
 }
 
 #workheadline {
@@ -359,7 +323,6 @@ body {
   margin: 20px;
   text-align: center;
   font-size: 25px;
-  
 }
 
 
