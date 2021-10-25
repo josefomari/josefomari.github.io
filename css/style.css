@@ -67,7 +67,7 @@ body {
 }
 /*skill bar size, % and color */
 .progress-value {
-  animation: load 2s normal forwards;
+  animation: load 3s normal forwards;
   box-shadow: 0 10px 10px -4.5px #fff;
   border-radius: 100px;
   background: #75b800;;
@@ -147,7 +147,7 @@ body {
 }
 
 .progress-value {
-  animation: load 2s normal forwards;
+  animation: load 3s normal forwards;
   box-shadow: 0 10px 10px -4.5px #fff;
   border-radius: 100px;
   background: #75b800;;
